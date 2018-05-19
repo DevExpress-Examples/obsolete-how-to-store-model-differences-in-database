@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E968.EasyTests", "E968.EasyTests", "{41665E0E-A502-4CA4-88C0-48D0AA1A414F}"
+	ProjectSection(SolutionItems) = preProject
+		E968.EasyTests\Config.xml = E968.EasyTests\Config.xml
+		E968.EasyTests\E968.ets = E968.EasyTests\E968.ets
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "E968.Module", "E968.Module\E968.Module.vbproj", "{1E7139AF-1980-47EB-A6D8-FED80061F496}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "E968.Web", "E968.Web\E968.Web.vbproj", "{C816B5CA-0045-42FA-9880-CE3784ED9C0E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DatabaseUserSettings", "DatabaseUserSettings\DatabaseUserSettings.vbproj", "{FD411ADC-669C-40E3-8A6F-BA40B800E12D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "E968.Win", "E968.Win\E968.Win.vbproj", "{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugTest|Any CPU = DebugTest|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7139AF-1980-47EB-A6D8-FED80061F496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C816B5CA-0045-42FA-9880-CE3784ED9C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD411ADC-669C-40E3-8A6F-BA40B800E12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A2F285-BFA2-41E9-8CE3-FA9DB88A4B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
