@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="11.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="11.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" NavigationWidth="200" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True" />
+  </Templates>
+  <Views>
+    <DetailView Id="SecurityUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="8">
+            <LayoutGroup Id="SecurityUserBase" Caption="SecurityUserBase" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="UserName" RelativeSize="51" ViewItem="UserName" />
+              <LayoutItem Id="IsActive" RelativeSize="48" ViewItem="IsActive" />
+              <LayoutItem Id="ChangePasswordOnFirstLogon" ViewItem="ChangePasswordOnFirstLogon" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Roles_Group" Direction="Vertical" Index="1" RelativeSize="91" ImageName="">
+            <LayoutItem Id="Roles" RelativeSize="95" ViewItem="Roles" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
