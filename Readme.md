@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ImportExportUserDifferencesController.cs](./CS/UserDiffsToDB.Module.Win/ImportExportUserDifferencesController.cs) (VB: [ImportExportUserDifferencesController.vb](./VB/UserDiffsToDB.Module.Win/ImportExportUserDifferencesController.vb))
+* [ModelDifferencesStores.cs](./CS/UserDiffsToDB.Module/ModelDifferencesStores.cs) (VB: [ModelDifferencesStores.vb](./VB/UserDiffsToDB.Module/ModelDifferencesStores.vb))
+* [ModelDiffs.cs](./CS/UserDiffsToDB.Module/ModelDiffs.cs) (VB: [ModelDiffs.vb](./VB/UserDiffsToDB.Module/ModelDiffs.vb))
+* [Updater.cs](./CS/UserDiffsToDB.Module/Updater.cs) (VB: [Updater.vb](./VB/UserDiffsToDB.Module/Updater.vb))
+* [Program.cs](./CS/UserDiffsToDB.Win/Program.cs) (VB: [Program.vb](./VB/UserDiffsToDB.Win/Program.vb))
+<!-- default file list end -->
 # OBSOLETE - How to: Store Model Differences in Database
 
 
