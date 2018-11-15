@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ManageUserSettingsListViewController.cs](./CS/DatabaseUserSettings/Controllers/ManageUserSettingsListViewController.cs) (VB: [ManageUserSettingsListViewController.vb](./VB/DatabaseUserSettings/Controllers/ManageUserSettingsListViewController.vb))
+* [ManageUserSettingsWindowController.cs](./CS/DatabaseUserSettings/Controllers/ManageUserSettingsWindowController.cs) (VB: [ManageUserSettingsWindowController.vb](./VB/DatabaseUserSettings/Controllers/ManageUserSettingsWindowController.vb))
+* **[DatabaseUserSettingsStore.cs](./CS/DatabaseUserSettings/DatabaseUserSettingsStore.cs) (VB: [DatabaseUserSettingsStore.vb](./VB/DatabaseUserSettings/DatabaseUserSettingsStore.vb))**
+* [Module.cs](./CS/DatabaseUserSettings/Module.cs) (VB: [Module.vb](./VB/DatabaseUserSettings/Module.vb))
+* [Updater.cs](./CS/E968.Module/Updater.cs) (VB: [Updater.vb](./VB/E968.Module/Updater.vb))
+<!-- default file list end -->
 # OBSOLETE - How to: Store Model Differences in Database
 
 
