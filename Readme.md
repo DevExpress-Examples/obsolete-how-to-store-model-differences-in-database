@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Updater.cs](./CS/UserDiffsToDB.Module/Updater.cs) (VB: [Updater.vb](./VB/UserDiffsToDB.Module/Updater.vb))
+* [XmlStorage.cs](./CS/UserDiffsToDB.Module/XmlStorage.cs) (VB: [XmlStorage.vb](./VB/UserDiffsToDB.Module/XmlStorage.vb))
+* [Program.cs](./CS/UserDiffsToDB.Win/Program.cs) (VB: [Program.vb](./VB/UserDiffsToDB.Win/Program.vb))
+<!-- default file list end -->
 # OBSOLETE - How to: Store Model Differences in Database
 
 
