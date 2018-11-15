@@ -1,3 +1,15 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [XPManageUserSettingsParameter.cs](./CS/DatabaseUserSettings/BusinessObjects/XPManageUserSettingsParameter.cs)
+* [XPUserSettings.cs](./CS/DatabaseUserSettings/BusinessObjects/XPUserSettings.cs)
+* [XPUserSettingsAspect.cs](./CS/DatabaseUserSettings/BusinessObjects/XPUserSettingsAspect.cs)
+* [ManageUserSettingsListViewController.cs](./CS/DatabaseUserSettings/Controllers/ManageUserSettingsListViewController.cs)
+* [ManageUserSettingsWindowController.cs](./CS/DatabaseUserSettings/Controllers/ManageUserSettingsWindowController.cs)
+* [DatabaseUserSettingsStore.cs](./CS/DatabaseUserSettings/DatabaseUserSettingsStore.cs)
+* [Model.DesignedDiffs.xafml](./CS/DatabaseUserSettings/Model.DesignedDiffs.xafml)
+* [Module.cs](./CS/DatabaseUserSettings/Module.cs)
+<!-- default file list end -->
 # OBSOLETE - How to: Store Model Differences in Database
 
 
